@@ -13,10 +13,10 @@ public class Invoice {
     private float precoUnitario;
 
     public Invoice(int idItem, String descricaoItem, int quantidadeItem, Float precoUnitario) {
-        setIdItem(idItem);
-        setDescricaoItem(descricaoItem);
-        setQuantidadeItem(quantidadeItem);
-        setPrecoUnitario(precoUnitario);
+        this.setIdItem(idItem);
+        this.setDescricaoItem(descricaoItem);
+        this.setQuantidadeItem(quantidadeItem);
+        this.setPrecoUnitario(precoUnitario);
         
     }
     

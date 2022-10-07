@@ -9,6 +9,6 @@ public class App {
         
         Invoice inv = new Invoice(10, "Mause pad", 10, 50.0f);
         
-        System.out.println("Valor da fataru R$: " + inv.getInvoiceAmount());
+        System.out.println("Valor da fatura R$: " + inv.getInvoiceAmount());
     }
 }
