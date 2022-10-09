@@ -22,7 +22,7 @@ public class Funcionario {
     public Funcionario(String primeiroNome, String sobrenome, float salarioMensal) {
         this.primeiroNome = primeiroNome;
         this.sobrenome = sobrenome;
-        this.salarioMensal = salarioMensal;
+        this.setSalarioMensal(salarioMensal);
         this.getSalarioAnual(salarioAnual);
     }
 
@@ -68,8 +68,9 @@ public class Funcionario {
     public void setSalarioMensal(float salarioMensal) {
         if (salarioMensal < 0) {
             this.salarioMensal = 0.0f;
+        } else {
+            this.salarioMensal = salarioMensal;
         }
-        this.salarioMensal = salarioMensal;
     }
 
     @Override
